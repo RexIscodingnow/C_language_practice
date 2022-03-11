@@ -4,3 +4,5 @@
 2. **Irregular Update** projects.
 3. Editor: Visual Studio Code
 4. Compiler: MinGW-w64
+5. Or the Dev-c++ => Editor + Compiler
+  Choose one.
