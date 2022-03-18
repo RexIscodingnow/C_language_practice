@@ -1,5 +1,6 @@
 /*
     左下方之三角形
+    using "i_j_rectangle.c" .exe file
 */
 #include <stdio.h>
 #include <stdlib.h>

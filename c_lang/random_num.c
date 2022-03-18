@@ -1,5 +1,6 @@
 /*
-    Practice: Array
+    Array for random number
+    二維陣列之亂數生成
 */
 #include <stdio.h>
 #include <stdlib.h>

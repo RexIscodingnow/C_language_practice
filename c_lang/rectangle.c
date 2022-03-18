@@ -1,3 +1,7 @@
+/*
+    print the rectangle
+    印出長方形
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

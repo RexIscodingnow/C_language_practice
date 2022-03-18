@@ -1,3 +1,6 @@
+/*
+    C code for hello world
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
