@@ -1,5 +1,6 @@
 /*
     座標表示
+    (i, j)
 */
 #include <stdio.h>
 #include <stdlib.h>
