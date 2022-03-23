@@ -1,5 +1,6 @@
 /*
     funtion for print triangle
+    集大成 -> 四種方向
 */
 #include <stdio.h>
 #include <stdlib.h>
