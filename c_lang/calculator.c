@@ -22,6 +22,7 @@ int main(int argc, char const *argv[]) {
     }
     printf("%d", ans);
 
+    system("pause");
     return 0;
 }
 
