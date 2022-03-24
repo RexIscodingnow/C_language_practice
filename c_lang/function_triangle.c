@@ -1,6 +1,9 @@
 /*
     funtion for print triangle
+    自定義函式，印出三角形
     集大成 -> 四種方向
+
+    In function() were used by triangle_[dirction].c source file.
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,13 +16,16 @@ void down_right(int);
 
 int main(int argc, char const *argv[]) {
 
-    int n;
+    int n, start_flag = 1;
     char dirct[2];
     printf("Print triangle\nChooose one dirction(UL(ul), UR(ur), DL(dl), Dr(dr)): ");
     scanf("%s", dirct);
     printf("%s\n", dirct);
     printf("n = ");
     
+    /* strcmp -> from <string.h>，
+                 字串判斷: (str1, str2) 兩者相同，回傳 0 ; 否則其他值 
+    */
     if (!strcmp(dirct, "UL") || !strcmp(dirct, "ul") && scanf("%d", &n) == 1) {
         up_left(n);
     }
@@ -31,6 +37,11 @@ int main(int argc, char const *argv[]) {
     }
     else if (!strcmp(dirct, "Dr") || !strcmp(dirct, "dr") && scanf("%d", &n) == 1) {
         down_right(n);
+    }
+
+    else {
+        system("cls");
+        printf("Type error\n");
     }
 
     system("pause");
