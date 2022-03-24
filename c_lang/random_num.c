@@ -13,7 +13,7 @@ int main(int argc, char const *argv[]) {
         {7, 8, 9, 10, 11, 12}
     };
 
-    int i, j, k;
+    int i, j, k = 0;
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 6; j++){
             int r = rand() % (12 - k) + k;
@@ -22,6 +22,7 @@ int main(int argc, char const *argv[]) {
             int t = scNum[i][j];
             scNum[i][j] = scNum[m][n];
             scNum[m][n] = t;
+            k++;
         }
     }
 

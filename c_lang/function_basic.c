@@ -1,5 +1,5 @@
 /*
-    funtion for return value
+    function for calculator
     函式之回傳值
 */
 #include <stdio.h>
